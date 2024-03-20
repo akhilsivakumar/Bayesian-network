@@ -7,7 +7,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import confusion_matrix, accuracy_score
 
 # Load the dataset
-dataset = pd.read_csv('file_path.csv')
+dataset = pd.read_csv('score.csv')
 
 # Extract features and target variable
 X = dataset.iloc[:, [1]].values
